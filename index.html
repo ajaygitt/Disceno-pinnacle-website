@@ -25,7 +25,21 @@
       }
     }
   </style>
-  
+  <!-- <style>
+    .video-container {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 aspect ratio */
+        height: 0;
+        overflow: hidden;
+    }
+    .video-container video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+</style> -->
   <meta content="" name="Disceno Pinnacle - Pioneering Sustainable Digital Transformation">
   <meta name="description" content="Disceno Pinnacle - Pioneering Sustainable Digital Transformation">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -104,8 +118,14 @@
     <div class="container position-relative">
       <div class="row gy-5 aos-init aos-animate">
         <div class="col-lg-7  order-lg-1 d-flex flex-column justify-content-start text-left caption">
-          <h1><b> Let's </b><br><span class="transform-text">Transform</span></h1> 
-          <h1 data-aos="fade-up" data-aos-delay="400"><b> With AI</b></h1>
+          <div class="d-md-none mb-2">
+            <h1><b> Let's </b><br><span class="transform-text">Transform</span></h1> 
+            <h1 data-aos="fade-up" data-aos-delay="400"><b> With AI</b></h1>
+          </div>
+          <div class="d-none d-md-block">
+            <h1><b> Let's </b><br><span class="transform-text">Transform</span></h1> 
+            <h1 data-aos="fade-up" data-aos-delay="400"><b> With Generative AI</b></h1>
+        </div>
           <!-- <div class="social" data-aos="fade-up" data-aos-delay="600">
             <a href=""><i class="bi bi-twitter"></i></a>
             <a href=""><i class="bi bi-facebook"></i></a>
@@ -124,10 +144,16 @@
   <section id="services">
     <div class="container my-5" id="featured">
       <div class="section-header" data-aos="fade-up" data-aos-delay="100">
-        <h2>Empowering businesses through customized AI solutions</h2>
-        <p>we specialize in crafting and implementing cutting-edge  AI  solutions that empower our clients to optimize their business processes and enhance revenue growth. Our commitment lies in creating custom software applications meticulously designed to address unique use cases, align with diverse budgets, and adhere to strict timelines. With a focus on innovation and client success, we strive to deliver tailored solutions that elevate business efficiency and drive sustainable growth.
+        <h2>Transforming Businesses with Tailored AI Solutions: Diseno Pinnacle's Generative AI Expertise</h2>
+        <p>Diseno Pinnacle is a leading Generative AI consulting company, dedicated to crafting and implementing bespoke AI solutions that empower our clients to optimize business processes and drive revenue growth. With expertise spanning various AI domains, from chatbot and conversational AI to recommendation systems, natural language processing (NLP), computer vision, and voice and speech recognition, we tailor solutions to meet diverse needs. Our mission is to leverage the potential of artificial intelligence to innovate and transform businesses, elevating customer experiences to new heights.
         </p>
       </div>
+      <!-- <div class="video-container">
+        <video autoplay muted playsinline controls>
+            <source src="assets/images/flightbooking.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div><br><br> -->
       <div class="row">
         <!-- start  left -->
         <div class="col-md-5 left">
@@ -152,17 +178,17 @@
           
         </div>
         <!-- end  left -->
-
         <!-- start  center -->
         <div class="col-md-2 p-4 p-sm-5 center">
           <div class="list-center-wrap" data-aos="fade-up" data-aos-delay="100">
             <div class="center-icon">
-              <img src="assets/images/icons/icon-center.svg" alt="icon">
+              <!-- <img src="assets/images/icons/icon-center.svg" alt="icon"> -->
             </div>
           </div>
         </div>
         
         <!-- end  center -->
+        
         <!-- start  right -->
         <div class="col-md-5 right">
           <div class="list-wrap" data-aos="fade-up" data-aos-delay="100">
@@ -184,16 +210,10 @@
         </div>
         
         <!-- end  right -->
+        
       </div>
-       <!-- start  center -->
-      <div class="d-md-none mb-2">
-        <div class="list-center-wrap" data-aos="fade-up" data-aos-delay="100">
-          <div class="center-icon">
-            <img src="assets/images/icons/icon-center.svg" alt="icon">
-          </div>
-        </div>
-      </div>
-      <!-- end  center -->
+      
+       
        <div class="row">
         <!-- start  left -->
         <div class="col-md-5 left">
@@ -218,16 +238,26 @@
           
         </div>
         <!-- end  left -->
-
+        <!-- start  center -->
+      <div class="d-md-none mb-2">
+        <div class="list-center-wrap" data-aos="fade-up" data-aos-delay="100">
+          <div class="center-icon">
+            <img src="assets/images/icons/icon-center.svg" alt="icon">
+          </div>
+        </div>
+      </div>
+      <!-- end  center -->
         <!-- start  center -->
         <div class="col-md-2 p-4 p-sm-5 center">
           <div class="list-center-wrap" data-aos="fade-up" data-aos-delay="100">
-            <!-- <div class="center-icon">
+            <div class="center-icon">
               <img src="assets/images/icons/icon-center.svg" alt="icon">
-            </div> -->
+            </div>
           </div>
         </div>
+        
         <!-- end  center -->
+        
          <!-- start  right -->
         <div class="col-md-5 right">
           <div class="list-wrap" data-aos="fade-up" data-aos-delay="100">
@@ -252,32 +282,70 @@
           
         </div>
         <!-- end  right -->
-      </div>
 
-      <!-- <div class="row"> -->
+        
+        
+      </div>
+      
+      <div class="row">
         <!-- start  left -->
-        <!-- <div class="col-md-5 left">
+        <div class="col-md-5 left">
           <div class="list-wrap" data-aos="fade-up" data-aos-delay="100">
             <div class="description">
-              <h4>Web Application<span style="color: #F44336;"></span></h4>
-              <p>Leverage our expertise in web application design, development, integration, and management.</p>
+              <h4>Revolutionizing AI Development<span style="color: #F44336;"></span></h4>
+              <p>We are at the forefront of AI development in computer vision technology.</p>
               <div>
-              <h5><a href="webapp.html"> LEARN MORE  </a><i class="bi bi-arrow-right"></i></h5>
+              <h5><a href="revolutionizingai.html"> LEARN MORE  </a><i class="bi bi-arrow-right"></i></h5>
             </div>
             </div>
            
             <div class="icon">
-              <img src="assets/images/icons/service-hosting.svg" alt="icon"> -->
+              <img src="assets/images/icons/service-hosting.svg" alt="icon">
               <!-- <small class="text-uppercase" style="color: #F44336;">1</small> -->
-            <!-- </div>
+            </div>
           </div>
 
           
 
 
           
-        </div> -->
+        </div>
         <!-- end  left -->
+        <!-- start  center -->
+        <div class="col-md-2 p-4 p-sm-5 center">
+          <div class="list-center-wrap" data-aos="fade-up" data-aos-delay="100">
+            <div class="center-icon">
+              <!-- <img src="assets/images/icons/icon-center.svg" alt="icon"> -->
+            </div>
+          </div>
+        </div>
+        
+        <!-- end  center -->
+        <!-- start  right -->
+        <div class="col-md-5 right">
+          <div class="list-wrap" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon">
+              <img src="assets/images/icons/service-seo.svg" alt="icon">
+              <!-- <small class="text-uppercase" style="color: #F44336;">2</small> -->
+            </div>
+            <div class="description">
+              <h4>AI recommendation system<span style="color: #F44336;"></span></h4>
+              <p>Unlocking Intelligent Recommendations with Diseno Pinnacle AI Development.
+
+              </p>
+              <div>
+                <h5><a href="airecommendationsystem.html">  LEARN MORE  </a><i class="bi bi-arrow-right"></i></h5>
+              </div>
+            </div>
+          </div>
+
+          
+
+
+          
+        </div>
+        <!-- end  right -->
+      </div>
 
        
        
@@ -1242,7 +1310,7 @@
                   <div class="single-contact-info-box">
                     <div class="contact-info">
                       <h6>Email:</h6>
-                      <p>info@disenopinnacle.com</p>
+                      <p><a href="mailto:info@disenopinnacle.com">info@disenopinnacle.com</a></p>
                     </div>
                   </div>
                 </div>
